@@ -99,9 +99,8 @@ namespace Snake
     }
     // Non serviva reimplementare la x e y quindi il frutto prende da segmento
     class Fruit : Segment
-    {
-        
-        public static string fruitChar = ".";
+    {        
+        public static string fruitChar = "+";
         public Fruit(int x, int y) : base(x, y) { }
         public bool isEaten = false;
 
