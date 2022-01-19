@@ -171,10 +171,6 @@ namespace Snake
                 do
                 {
                     Render(board, snake, fruit);
-                    if (snake.isAlive)
-                    {
-                        Thread.Sleep(500);
-                    }
                 } while (snake.isAlive);
                 Console.WriteLine("GAME OVER!");
             }).Start();
